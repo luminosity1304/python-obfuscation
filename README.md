@@ -9,7 +9,7 @@ this repo is for learning and simple workflow use not for security
 
 how it works
 - source is compressed with zlib
-- compressed bytes are xored with a key
+- compressed bytes are stored with a key
 - result is encoded with base64
 - deobfuscation reverses the same steps with the same key
 
